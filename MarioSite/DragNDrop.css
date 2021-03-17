@@ -1,0 +1,32 @@
+[data-role="drag-drop-target"] {
+    float: left;
+    width: 500px;
+    height: 376px;
+    margin: 10px;
+    padding: 10px;
+    border: 10px solid rgb(212, 212, 212);
+    border-radius: 4px;
+}
+
+.over {
+    background-color: rgb(73, 73, 73);
+}
+
+[draggable="true"] {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    /* Support old versions of WebKit */
+    -khtml-user-drag: element;
+    -webkit-user-drag: element;
+}
+
+.drag {
+    border: solid black 2px;
+}
+
+.img-responsive {
+    width: 150px;
+    height: 150px;
+}
